@@ -41,6 +41,8 @@ const Contact = () => {
           </div>
           <form
             className='space-y-8 w-full max-w-[780px]'
+            action='https://formsubmit.co/skgautam393@gmail.com'
+            method='POST'
           >
             <div className='flex gap-8'>
               <input className='input' type='text' placeholder='Your name' />
@@ -51,7 +53,7 @@ const Contact = () => {
               className='textarea'
               placeholder='Your message'
             ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
+            <button className='btn btn-lg bg-accent hover:bg-secondary-hover' type='submit'>
               Send message
             </button>
           </form>
