@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // import data
-import { projectsData } from '../data';
+import { github_link, projectsData } from '../data';
 import { projectsNav } from '../data';
 import { more } from '../data';
 
@@ -57,6 +57,7 @@ const Projects = () => {
         {projects.map((item) => {
           return <Project item={item} key={item.id} />;
         })}
+        <a href={github_link}>
         <div className='flex flex-col items-center text-center'>
               <div className='mb-8'>
                 <img className='rounded-2xl' src={more.image} alt='' />
@@ -68,6 +69,7 @@ const Projects = () => {
                 {item.desc}
               </p> */}
             </div>
+            </a>
       </section>
     </div>
   );
