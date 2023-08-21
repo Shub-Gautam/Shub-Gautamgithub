@@ -128,6 +128,8 @@ export const projectsData = [
     id: '1',
     image: Project1,
     desc:'In memory key-value database written in java',
+    link_github:'',
+    link_presentation:'',
     name: 'MCacheDB',
     category: 'Web Application',
   },
@@ -136,6 +138,8 @@ export const projectsData = [
     image: Project2,
     desc:'Android application for NGO/Volunteers which help them moniter their functions and attendance using virtual ID Card ',
     name: 'Tog Alora',
+    link_github:'',
+    link_presentation:'',
     category: 'Android Application',
   },
   {
@@ -143,12 +147,16 @@ export const projectsData = [
     image: Project3,
     desc:'Web application which helps you to automate whatsapp messages',
     name: 'Whatsauto',
+    link_github:'',
+    link_presentation:'',
     category: 'Web Application',
   },
   {
     id: '4',
     image: Project4,
     name: 'NFT Warrenty System',
+    link_github:'',
+    link_presentation:'',
     desc:'An application to replace physical warrenty with soul bound NFT warrenty [Digital Warrenty]',
     category: 'Web Application',
   },
@@ -156,10 +164,14 @@ export const projectsData = [
     id: '5',
     image: Project5,
     name: 'File Sharing App',
+    link_github:'',
+    link_presentation:'',
     desc:'Web application to share files using generated links',
     category: 'Web Application',
   },
 ];
+
+export const github_link = 'https://github.com/Shub-Gautam/'
 
 export const more = {
   image: moreimg,
@@ -215,8 +227,10 @@ export const services = [
     path:'https://drive.google.com/file/d/1a7U4nFAzlebLZV63WbHh5dtuRLKo1-cA/view?usp=sharing',
     company:'Adobe',
     name: 'Customer Experience Maker',
-    description:
-      'Build a Machine Learning Model in python to give predictions based on description and display it on the frontend using APIs using flask',
+    description:[`• Build a Machine Learning Model in python to give predictions based on description and display it 
+    on the frontend using APIs using flask`,`
+    • Develop a Microsoft Power App application to implement functionality of Planner to manage tasks 
+    and generate automated reports using Power BI`]
   },
   {
     icon: SkillImg13,
@@ -224,24 +238,104 @@ export const services = [
     path:'https://drive.google.com/file/d/1xLcdewhnEf1KgSWoD_Iy_61wjyVog2BA/view?usp=drive_link',
     name: 'Web Developer',
     description:
-      'Implement Faceted Search functionality to their project using Elasticsearch and real time data collection engine Logstash to fetch records from their PostgreSQL server',
-  },
+      [`• Work with their backend [Nodejs (JavaScript)] and frontend team to build APIs, adding new features, creating views and removing 
+      bugs from their project`,`
+      • Implement Faceted Search functionality to their project using Elasticsearch and real time data collection engine Logstash to fetch 
+      records from their PostgreSQL server`,`
+      • Design and optimize their Frontend pages using EJS template engine and migrating pages from EJS to ReactJS`
+      ] },
   {
     icon: SkillImg14,
     company:'Tricket.in',
     name: 'Backend Developer',
     description:
-      'Design entire backend in Nodejs (TypeScript) following MVC architecture for their Game and Admin APIs [ user-onboarding, handling real time data (firebase), using ORM tool (Sequilize) for PostgreSQL]',
-  },
+      [`• Design entire backend in Nodejs (TypeScript) following MVC architecture for their Game and Admin APIs [ user-onboarding, 
+        handling real time data (firebase), using ORM tool (Sequilize) for PostgreSQL]`
+        ,`• Built scheduler function jobs (Cron jobs) and HTTP trigger scripts for Azure cloud functions for data clean-up`
+        ,`• Design Models in Sequilize and integrate flow between their repos`]  },
   {
     icon: SkillImg15,
     company:'Eatoes',
     path:'https://drive.google.com/file/d/1Lsp3_Ey2qyLC3qZgnkBmkrKPd_eqMhmJ/view?usp=drive_link',
     name: 'Backend Developer',
     description:
-      'Design and built APIs using Nodejs (JavaScript) [for user-onboarding, user validation and backlisting] & for Business logic. Built web scrapper to crawl restaurants data from multiple sources',
-  },
+      [`• Design and built APIs using Nodejs (JavaScript) [for user-onboarding, user validation and backlisting] & for Business logic`,
+      `• Built web scrapper to crawl restaurants data from multiple sources`,
+      `• Handling data storage on Mongo DB and Redis`]  },
 ];
+
+
+export const education = [
+  {
+    name: 'Maharaja Agrasen Institute of Technology, Delhi',
+    course: 'B.Tech (Computer Science & Technology)',
+    duration: '2020-2024',
+    percentage: 'CGPA 9.27/10'
+  },
+  {
+    name: 'Radha Krishna Public Sr. Sec. School, Uttar Pradesh',
+    course: 'Higher Secondary',
+    duration: '2019',
+    percentage: 'Percentage 92.6%'
+  },
+  {
+    name: 'Radha Krishna Public Sr. Sec. School, Uttar Pradesh',
+    course: 'High School',
+    duration: '2017',
+    percentage: 'CGPA 10/10'
+  },
+]
+
+export const awahor = [
+  {
+    title:'• Innerve Hack IGDTUW',
+    desc:'Secured finalist position under 30 teams'
+  }
+]
+
+export const posres = [
+  {
+    title:'Web Developer Mentor @ Girl Code it',
+    desc:'• Mentor freshers in web development roadmap',
+    duration:'Feb 2022 - Feb 2023'
+  }
+]
+
+
+export const certi = [
+  {
+    name:'• Core JAVA Programming - Beginner to Master',
+    link:'https://drive.google.com/file/d/1USGx6krzO2K17to8q22f8M2JXRa4tbBa/view?usp=drive_link',
+  },
+  {
+    name:'• Getting started with AWS',
+    link:'https://drive.google.com/file/d/1-z_bVCnXPIkWJOtGWQUASE666kwHvtGO/view?usp=drive_link',
+  },
+  {
+    name:'• Docker and Kubernetes: The Complete Guide',
+    link:'https://drive.google.com/file/d/1bwKPNM6ujsmDqpHpYWeAGYsPh7HHyA-m/view?usp=drive_link',
+  },
+  {
+    name:'• Cloud Computing 101',
+    link:'',
+  },
+  {
+    name:'• Arithmetic Toolbox',
+    link:'https://drive.google.com/file/d/1jec2Jme_Q3B-O1xS-bGsVv95gmd6VfLg/view?usp=drive_link',
+  },
+  {
+    name:'• Cloud Networking',
+    link:'https://skillsoft.digitalbadges.skillsoft.com/a8898466-9911-4330-abbd-23ee24a837ff#gs.435a8q',
+  },
+  {
+    name:'• Fundamentals of Reinforcement Learning',
+    link:'https://drive.google.com/file/d/1HVC240fA5__ZOirrwQ0atTdJnDknYSDS/view?usp=drive_link',
+  }
+]
+
+
+
+
 
 // testimonials
 export const testimonials = [

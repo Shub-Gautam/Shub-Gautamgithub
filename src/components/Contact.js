@@ -13,8 +13,6 @@ const Contact = () => {
             Contact me
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
           </p>
         </div>
         <div
@@ -45,11 +43,12 @@ const Contact = () => {
             method='POST'
           >
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+              <input name='name' className='input' type='text' placeholder='Your name' />
+              <input name='email' className='input' type='email' placeholder='Your email' />
             </div>
-            <input className='input' type='text' placeholder='Subject' />
+            <input name='subject' className='input' type='text' placeholder='Subject' />
             <textarea
+              name='message'
               className='textarea'
               placeholder='Your message'
             ></textarea>
