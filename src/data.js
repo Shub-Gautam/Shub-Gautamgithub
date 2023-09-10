@@ -142,7 +142,7 @@ export const projectsData = [
     category: 'Web Applications',
     gitlink:"https://github.com/Shub-Gautam/MCacheDB",
     ytlink:"",
-    pptlink:""
+    pptlink:"https://1drv.ms/p/s!Ao-vGXK6WdzgpWqBR-VBaEG5pNcv?e=AUDJSO"
   },
   {
     id: '2',
@@ -166,7 +166,7 @@ export const projectsData = [
     category: 'Web Applications',
     gitlink:"https://github.com/Shub-Gautam/whatauto",
     ytlink:"",
-    pptlink:""
+    pptlink:"https://1drv.ms/p/s!Ao-vGXK6WdzgpWhvn0OaVZnKWsN5?e=NvRqAP"
   },
   {
     id: '4',
@@ -178,7 +178,7 @@ export const projectsData = [
     category: 'Web Applications',
     gitlink:"https://github.com/Shub-Gautam/NFT_Warranty_backend",
     ytlink:"",
-    pptlink:""
+    pptlink:"https://1drv.ms/p/s!Ao-vGXK6WdzgpWw2N5p2Cpxq6jby?e=epkV7r"
   },
   {
     id: '5',
