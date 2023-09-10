@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e250f2d.css",
-    "main.js": "/static/js/main.9eb552f4.js",
+    "main.css": "/static/css/main.91a13f57.css",
+    "main.js": "/static/js/main.0fe9c457.js",
     "static/media/about.webp": "/static/media/about.2c2bda9a46420b56d2b5.webp",
     "static/media/banner-woman2.webp": "/static/media/banner-woman2.484a3b40fee634e4b12f.webp",
-    "static/media/testimonial-2.webp": "/static/media/testimonial-2.4c1e7c2fe42e548d2e0f.webp",
+    "static/media/t1.jpeg": "/static/media/t1.7eb86303c83a83e832a4.jpeg",
     "static/media/mcachedb.png": "/static/media/mcachedb.804b57fe7fab01cf0f91.png",
     "static/media/nftwar.png": "/static/media/nftwar.47871b328bad2ab228bf.png",
     "static/media/togalora.png": "/static/media/togalora.93603dd55a7de81765d2.png",
     "static/media/whatsauto.png": "/static/media/whatsauto.18a4763bdd85cb81f964.png",
     "static/media/sharefile.png": "/static/media/sharefile.73b6ee0f31a8b5772c07.png",
+    "static/media/iitb.jpg": "/static/media/iitb.1c54e53282444b873945.jpg",
     "static/media/testimonial-3.webp": "/static/media/testimonial-3.677360499dd5a97f022a.webp",
     "static/media/logo.svg": "/static/media/logo.b521a898489cfa7dc3863d7e83be3cc1.svg",
-    "static/media/services.svg": "/static/media/services.2d6c88f25842315ca095.svg",
     "static/media/portfolio.svg": "/static/media/portfolio.2f31f4be113e35cc3442.svg",
     "static/media/testimonials.svg": "/static/media/testimonials.07294ae9606e6d7ea071.svg",
+    "static/media/github.png": "/static/media/github.c3ffe9fd5f61d0a22ca9.png",
     "static/media/contact.svg": "/static/media/contact.ec60abf53c38c2593f7e.svg",
     "static/media/p6.webp": "/static/media/p6.26fcf4320bfa0eacc03a.webp",
-    "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
     "static/media/about.svg": "/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/index.html",
-    "main.1e250f2d.css.map": "/static/css/main.1e250f2d.css.map",
-    "main.9eb552f4.js.map": "/static/js/main.9eb552f4.js.map"
+    "main.91a13f57.css.map": "/static/css/main.91a13f57.css.map",
+    "main.0fe9c457.js.map": "/static/js/main.0fe9c457.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e250f2d.css",
-    "static/js/main.9eb552f4.js"
+    "static/css/main.91a13f57.css",
+    "static/js/main.0fe9c457.js"
   ]
 }
