@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.91a13f57.css",
-    "main.js": "/static/js/main.0fe9c457.js",
+    "main.css": "/static/css/main.f6ed12aa.css",
+    "main.js": "/static/js/main.9a006592.js",
     "static/media/about.webp": "/static/media/about.2c2bda9a46420b56d2b5.webp",
     "static/media/banner-woman2.webp": "/static/media/banner-woman2.484a3b40fee634e4b12f.webp",
     "static/media/t1.jpeg": "/static/media/t1.7eb86303c83a83e832a4.jpeg",
@@ -20,11 +20,11 @@
     "static/media/p6.webp": "/static/media/p6.26fcf4320bfa0eacc03a.webp",
     "static/media/about.svg": "/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/index.html",
-    "main.91a13f57.css.map": "/static/css/main.91a13f57.css.map",
-    "main.0fe9c457.js.map": "/static/js/main.0fe9c457.js.map"
+    "main.f6ed12aa.css.map": "/static/css/main.f6ed12aa.css.map",
+    "main.9a006592.js.map": "/static/js/main.9a006592.js.map"
   },
   "entrypoints": [
-    "static/css/main.91a13f57.css",
-    "static/js/main.0fe9c457.js"
+    "static/css/main.f6ed12aa.css",
+    "static/js/main.9a006592.js"
   ]
 }
