@@ -14,6 +14,8 @@ import {
   FiPhone
 } from 'react-icons/fi';
 
+import {SiLeetcode} from 'react-icons/si'
+
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
 import UpworkBrandIcon from './assets/img/brands/upwork.png';
@@ -97,6 +99,10 @@ export const social = [
   {
     icon:<FiInstagram/>,
     href: 'https://instagram.com/shubhamgautam__'
+  },
+  {
+    icon:<SiLeetcode/>,
+    href:'https://leetcode.com/sgautam393/'
   }
 ];
 

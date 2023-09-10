@@ -55,7 +55,7 @@
   background: #ffffff7d;
   backdrop-filter: blur(3px);
   /* transition: 0.5s; */
-  border-radius: 7px;
+  border-radius: 1rem;
 }
 
 .hovOverCard:hover .card-body{
