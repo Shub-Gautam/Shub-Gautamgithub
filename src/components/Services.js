@@ -14,7 +14,7 @@ const Services = () => {
     <section id='services' className='section bg-tertiary'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <h2 className='section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>
+          <h2 className='section-title before:content-experience relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>
             Experience & certifications
           </h2>
           <p className='subtitle'>

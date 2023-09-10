@@ -49,9 +49,11 @@ import SkillImg13 from './assets/img/skills/iit.jpg';
 import SkillImg14 from './assets/img/skills/tricket.png';
 import SkillImg15 from './assets/img/skills/eatoes.jpg';
 
+import githubimg from './assets/img/github.png';
+
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
+import TestiImage1 from './assets/img/testimonials/t1.jpeg';
+import TestiImage2 from './assets/img/testimonials/iitb.jpg';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
@@ -69,13 +71,13 @@ export const navigation = [
     href: 'portfolio',
   },
   {
-    name: 'experience',
-    href: 'experience',
+    name: 'resume',
+    href: 'services',
   },
-  // {
-  //   name: 'testimonials',
-  //   href: 'testimonials',
-  // },
+  {
+    name: 'testimonials',
+    href: 'testimonials',
+  },
   {
     name: 'contact',
     href: 'contact',
@@ -131,7 +133,10 @@ export const projectsData = [
     link_github:'',
     link_presentation:'',
     name: 'MCacheDB',
-    category: 'Web Application',
+    category: 'Web Applications',
+    gitlink:"https://github.com/Shub-Gautam/MCacheDB",
+    ytlink:"",
+    pptlink:""
   },
   {
     id: '2',
@@ -140,7 +145,10 @@ export const projectsData = [
     name: 'Tog Alora',
     link_github:'',
     link_presentation:'',
-    category: 'Android Application',
+    category: 'Android Applications',
+    gitlink:"https://github.com/Shub-Gautam/TOGS",
+    ytlink:"",
+    pptlink:"https://1drv.ms/p/s!Ao-vGXK6WdzgpWTy1Wd5H79Va6tS"
   },
   {
     id: '3',
@@ -149,7 +157,10 @@ export const projectsData = [
     name: 'Whatsauto',
     link_github:'',
     link_presentation:'',
-    category: 'Web Application',
+    category: 'Web Applications',
+    gitlink:"https://github.com/Shub-Gautam/whatauto",
+    ytlink:"",
+    pptlink:""
   },
   {
     id: '4',
@@ -158,7 +169,10 @@ export const projectsData = [
     link_github:'',
     link_presentation:'',
     desc:'An application to replace physical warrenty with soul bound NFT warrenty [Digital Warrenty]',
-    category: 'Web Application',
+    category: 'Web Applications',
+    gitlink:"https://github.com/Shub-Gautam/NFT_Warranty_backend",
+    ytlink:"",
+    pptlink:""
   },
   {
     id: '5',
@@ -167,7 +181,10 @@ export const projectsData = [
     link_github:'',
     link_presentation:'',
     desc:'Web application to share files using generated links',
-    category: 'Web Application',
+    category: 'Web Applications',
+    gitlink:"https://github.com/Shub-Gautam/FileSharing-App",
+    ytlink:"",
+    pptlink:"https://1drv.ms/p/s!Ao-vGXK6WdzgpWKgWfMNz8X38Zxc"
   },
 ];
 
@@ -342,23 +359,23 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    `""`,
+    authorName: 'Atul Tiwari',
+    authorPosition: 'System Analyst, @DZAN',
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      `"Shubham has worked independently and handled the back end and front end
+      with full dedication. He has contributed to website development and the Android app
+      backend in NodeJS. His design skills, in addition to his coding prowess, deserve special
+      attention. He is a quick learner and was responsible for developing and testing the
+      website and android app.
+      He has been enthusiastic, sincere, and dedicated and has performed
+      commendably on the project. He demonstrated excellent teamwork skills and
+      coordination. We take this opportunity to thank him and wish him luck for the future."`,
+    authorName: 'Ayush Maheshwari',
+    authorPosition: 'Phd CSE, @IIT Bombay',
   },
 ];
 

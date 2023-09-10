@@ -2,6 +2,10 @@ import React from 'react';
 
 // import img
 import Image from '../assets/img/about.webp';
+import I1 from '../assets/img/Interest/finance.png';
+import I2 from '../assets/img/Interest/games.png';
+import I3 from '../assets/img/Interest/phy.png';
+import I4 from '../assets/img/Interest/universe.png';
 
 const About = () => {
   return (
@@ -30,9 +34,13 @@ const About = () => {
                Interests
               </p>
               <hr className='mb-8 opacity-5' />
-              <div>
-                
+              <div className='flex'>
+                <img className='pr-5' src={I1} title='Finance' alt='Finance'></img>
+                <img src={I2} className='pr-5' title='Video Games' alt='Video Games'></img>
+                <img className='pr-5' src={I4} title='Astronomy' alt='Astronomy'></img>
+                <img className='pr-5' src={I3} title='Theoritical Physics' alt='Theoritical Physics'></img>
               </div>
+              <br></br>
               
             </div>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>

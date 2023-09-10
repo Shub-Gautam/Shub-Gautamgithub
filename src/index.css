@@ -44,3 +44,37 @@
     @apply text-accent;
   }
 }
+
+.hovOverCard{
+    /* width: 320; */
+}
+
+.card-body{
+  /* right: -100%; */
+  visibility: hidden;
+  background: #ffffff7d;
+  backdrop-filter: blur(3px);
+  /* transition: 0.5s; */
+  border-radius: 7px;
+}
+
+.hovOverCard:hover .card-body{
+  visibility: visible;
+  /* transition: 10ms; */
+  
+}
+
+
+/* .backdrop{
+  z-index: 1; position: absolute; top: 0; left: 0;
+}
+
+.currtain{
+  z-index: 2; 
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%)
+} */
+
+
