@@ -25,7 +25,7 @@ const TestiSlider = () => {
         }}
         autoplay={{
           delay: 5000,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         modules={[Autoplay, Pagination]}
         className='mySwiper'

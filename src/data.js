@@ -365,7 +365,7 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-    `""`,
+    `"Working with Shubham during his internship at Eatoes was a fantastic experience. Shubham quickly learned complex concepts and wrote great code that improved our project a lot. He was always ready to help and had good ideas. Shubham is a dedicated and talented developer, and I'm sure he'll do great in the software industry and will bring lot of skills and ideas to the table. I recommend him for any similar roles without hesitation."`,
     authorName: 'Atul Tiwari',
     authorPosition: 'System Analyst, @DZAN',
   },
@@ -407,4 +407,5 @@ export const contact = [
 ];
 
 
-export const resumeLink = 'https://1drv.ms/b/s!Ao-vGXK6WdzgpTchxgj6ntWizQUU?e=wEB8jb'
+export const resumeLink = 'https://1drv.ms/b/s!Ao-vGXK6WdzgpWbZfEyFKMlpV_yn?e=chM1uN'
+
