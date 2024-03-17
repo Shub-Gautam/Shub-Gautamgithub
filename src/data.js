@@ -15,6 +15,7 @@ import {
 } from 'react-icons/fi';
 
 import {SiLeetcode} from 'react-icons/si'
+import {SiCodeforces} from 'react-icons/si'
 
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
@@ -56,7 +57,7 @@ import githubimg from './assets/img/github.png';
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/t1.jpeg';
 import TestiImage2 from './assets/img/testimonials/iitb.jpg';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+// import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -103,6 +104,10 @@ export const social = [
   {
     icon:<SiLeetcode/>,
     href:'https://leetcode.com/sgautam393/'
+  },
+  {
+    icon:<SiCodeforces/>,
+    href:'https://codeforces.com/profile/sgautamm'
   }
 ];
 
@@ -291,9 +296,9 @@ export const services = [
 export const education = [
   {
     name: 'Maharaja Agrasen Institute of Technology, Delhi',
-    course: 'B.Tech (Computer Science & Technology)',
+    course: 'Bachelor of Technology (Computer Science & Technology)',
     duration: '2020-2024',
-    percentage: 'CGPA 9.27/10'
+    percentage: 'CGPA 9.20/10'
   },
   {
     name: 'Radha Krishna Public Sr. Sec. School, Uttar Pradesh',
@@ -313,7 +318,19 @@ export const awahor = [
   {
     title:'• Innerve Hack IGDTUW',
     desc:'Secured finalist position under 30 teams'
-  }
+  },
+  {
+    title:'• Solved 500+ coding questions on platforms like leetcode and codeforces.',
+    desc:''
+  },
+  {
+    title:'• Leetcode (contest rating 1700+) in top 12% of the website.',
+    desc:''
+  },
+  {
+    title:'• Flipkart Grid 4.0 1st round clearup (1300 teams selected out of 50000 teams) work on problem statement NFT Based Warranty System',
+    desc:''
+  },
 ]
 
 export const posres = [
@@ -407,5 +424,5 @@ export const contact = [
 ];
 
 
-export const resumeLink = 'https://1drv.ms/b/s!Ao-vGXK6WdzgpWbZfEyFKMlpV_yn?e=chM1uN'
+export const resumeLink = 'https://drive.google.com/file/d/1Wc3wiImTEZFgliHJ4xQAU8BtG7Ts9BvK/view?usp=sharing'
 

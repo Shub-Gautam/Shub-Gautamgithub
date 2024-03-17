@@ -6,12 +6,13 @@ import { education } from '../data';
 import { certi } from '../data';
 import { posres } from '../data';
 import { awahor } from '../data';
+import Divider from '@mui/material/Divider';
 
 const Services = () => {
 
 
   return (
-    <section id='services' className='section bg-tertiary'>
+    <section id='services' className='section bg-backgg'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-experience relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>
@@ -32,6 +33,7 @@ const Services = () => {
             <div>
               <div className='bg-secondary p-6 rounded-2xl' key={index}>
                 <div className='grid lg:grid-cols-2'>
+
                   <div >
                     <h3 className='text-xl  mb-2'>{course}</h3>
                   </div>
@@ -39,11 +41,13 @@ const Services = () => {
                   <div className='grid place-items-end'>
                     <p className='mb-2'>{duration}</p>
                   </div>
+
                 </div>
 
                 <p className='mb-2'>{name}</p>
                 <p className='mb-2'>{percentage}</p>
                 <p>{description}</p>
+                <p></p>
               </div>
               <br></br>
             </div>
@@ -58,7 +62,9 @@ const Services = () => {
 
             <div>
               <p className='mb-4 text-xl font-medium text-accent'>Work Ex</p>
-              <hr className='mb-8 opacity-5' />
+              {/* <hr className='mb-8 opacity-5' /> */}
+              <Divider></Divider>
+                <br></br>
               {services.map((service, index) => {
                 const { icon, name, description, company, path } = service;
                 return (
@@ -98,14 +104,16 @@ const Services = () => {
             <div>
               <div>
               <p className='mb-4 text-xl font-medium text-accent'>Certifications</p>
-              <hr className='mb-8 opacity-5' />
+              {/* <hr className='mb-8 opacity-5' /> */}
+              <Divider></Divider>
+                {/* <br></br> */}
               {/* Here comes certificates */}
               {certi.map((cer, index) => {
                 const { name, link } = cer;
                 return (
                   <div>
                     <br></br>
-                    <br></br>
+                    {/* <br></br> */}
                     <p className='text-xl mb-2'>{name}</p>
                     <a className='m-4 text-accent' href={link}>Check here</a>
                   </div>
@@ -116,7 +124,9 @@ const Services = () => {
                 <br></br>
                 <br></br>
                 <p className='mb-4 text-xl font-medium text-accent'>Positions of responsibilities</p>
-                <hr className='mb-8 opacity-5' />
+                {/* <hr className='mb-8 opacity-5' /> */}
+                <Divider></Divider>
+                <br></br>
                 {/* Here comes certificates */}
                 {posres.map((respos, index) => {
                   const { title, duration, desc } = respos;
@@ -144,7 +154,9 @@ const Services = () => {
                 
                 <br></br>
                 <p className='mb-4  text-xl font-medium text-accent'>Awards and Honors</p>
-                <hr className='mb-8 opacity-5' />
+                {/* <hr className='mb-8 opacity-5' /> */}
+                <Divider></Divider>
+                <br></br>
                 {/* Here comes certificates */}
                 {awahor.map((cer, index) => {
                 const { title, desc } = cer;

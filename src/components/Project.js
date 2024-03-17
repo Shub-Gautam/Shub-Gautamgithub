@@ -7,7 +7,7 @@ import pptimg from '../assets/img/ppt.png';
 
 const Project = ({ item }) => {
   return (
-    <div key={item.id} className='hovOverCard flex flex-col items-center relative z-0 text-center bg-secondary p-4 rounded-2xl'>
+    <div key={item.id} className='hovOverCard pad_sh flex flex-col items-center relative z-0 text-center bg-secondary p-4 rounded-2xl'>
       {/* <div className='card-body' ></div> */}
       <div className='mb-8'>
         <img className='rounded-2xl' src={item.image} alt='' />

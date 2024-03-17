@@ -2,8 +2,8 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Playfair Display',
-      body: 'Work Sans',
+      primary: 'Lato',
+      body: 'Lato',
     },
     container: {
       padding: {
@@ -26,14 +26,16 @@ module.exports = {
         contact: 'url("/src/assets/img/outline-text/contact.svg")',
       },
       colors: {
-        primary: '#050402',
-        secondary: '#1C1D24',
-        tertiary: '#131419',
+        primary: '#FFFFFF',
+        secondary: '#fbfbfa',
+        tertiary: '#5C5853',
+        cardish:'#404040',
+        backgg:'#f4f4f4',
         accent: {
-          DEFAULT: '#ac6b34',
-          hover: '#925a2b',
+          DEFAULT: '#40403F',
+          hover: '#595958',
         },
-        paragraph: '#878e99',
+        paragraph: '#5C5853',
       },
     },
   },

@@ -11,10 +11,10 @@
   h4,
   h5,
   h6 {
-    @apply text-white font-primary;
+    @apply text-black font-primary;
   }
   h3{
-    @apply text-white
+    @apply text-black
   }
   .section {
     @apply py-12 lg:py-32;
@@ -58,10 +58,18 @@
   border-radius: 1rem;
 }
 
+.bdfasd{
+  background-color: #f4f4f4;
+}
+
 .hovOverCard:hover .card-body{
   visibility: visible;
   /* transition: 10ms; */
   
+}
+
+.pad_sh{
+  padding: 2.5rem;
 }
 
 
